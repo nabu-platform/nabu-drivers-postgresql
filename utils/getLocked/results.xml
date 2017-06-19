@@ -1,0 +1,8 @@
+<structure name="result">
+    <field name="blockedPid" type="java.lang.String"/>
+    <field name="blockedUser" type="java.lang.String"/>
+    <field name="blockingPid" type="java.lang.String"/>
+    <field name="blockingUser" type="java.lang.String"/>
+    <field name="blockedStatement" type="java.lang.String"/>
+    <field name="currentStatementInBlockingProcess" type="java.lang.String"/>
+</structure>

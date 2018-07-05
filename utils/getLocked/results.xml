@@ -5,4 +5,8 @@
     <field name="blockingUser" type="java.lang.String"/>
     <field name="blockedStatement" type="java.lang.String"/>
     <field name="currentStatementInBlockingProcess" type="java.lang.String"/>
+    <field name="blockingProcessStart" type="java.lang.String"/>
+    <field name="blockedProcessStart" type="java.lang.String"/>
+    <field name="blockingProcessHost" type="java.lang.String"/>
+    <field name="blockedProcessHost" type="java.lang.String"/>
 </structure>

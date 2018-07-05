@@ -1,0 +1,3 @@
+<structure name="parameter">
+    <field name="pid" type="java.lang.Long"/>
+</structure>

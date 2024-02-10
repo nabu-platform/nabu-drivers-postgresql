@@ -1,0 +1,8 @@
+<structure name="result">
+    <field name="seqSchema" type="java.lang.String"/>
+    <field name="seqname" type="java.lang.String"/>
+    <field name="tableschema" type="java.lang.String"/>
+    <field name="tablename" type="java.lang.String"/>
+    <field name="columname" type="java.lang.String"/>
+    <field name="owner" type="java.lang.String"/>
+</structure>

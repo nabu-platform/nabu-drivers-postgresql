@@ -1,0 +1,3 @@
+<structure name="deadlockList">
+    <structure definition="nabu.drivers.postgresql.utils.getLocked.results" maxOccurs="unbounded" minOccurs="0" name="results"/>
+</structure>

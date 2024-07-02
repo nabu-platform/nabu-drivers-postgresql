@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<node artifactManager="be.nabu.eai.module.services.vm.VMServiceManager" created="2024-06-17T13:33:52.321+02:00" lastModified="2024-06-19T11:46:31.035+02:00" leaf="true" version="18">
+    <environmentId>apollo</environmentId>
+    <hidden>false</hidden>
+    <locked>false</locked>
+    <properties/>
+    <references>nabu.utils.Runtime.summarizeException</references>
+    <references>nabu.drivers.postgresql.utils.getLocked</references>
+    <references>nabu.protocols.jdbc.pool.Services.listConnections</references>
+    <references>nabu.utils.Event.fire</references>
+    <references>nabu.drivers.postgresql.startup.deadlockList</references>
+    <references>java.lang.String</references>
+    <references>nabu.data.json.Services.marshal</references>
+    <references>nabu.utils.Server.sleep</references>
+    <references>be.nabu.utils.cep.impl.ComplexEventImpl</references>
+    <references>nabu.utils.Stream.toString</references>
+</node>

@@ -1,0 +1,7 @@
+<structure name="pipeline">
+    <structure name="input"/>
+    <structure name="output"/>
+    <field maxOccurs="unbounded" minOccurs="0" name="connections" type="java.lang.String"/>
+    <structure definition="nabu.drivers.postgresql.startup.deadlockList" name="deadlockList"/>
+    <structure definition="be.nabu.utils.cep.impl.ComplexEventImpl" name="event"/>
+</structure>

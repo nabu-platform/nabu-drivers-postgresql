@@ -26,6 +26,15 @@
 				<from>org.postgresql.Driver</from>
 				<to>driver</to>
 			</steps>
+			<steps xsi:type="be.nabu.libs.services.vm.step.Link"
+					disabled="false"
+					id="534f8f0369334c5b8cff9790d2e4fccc"
+					mask="false"
+					optional="false"
+					fixedValue="true">
+				<from>true</from>
+				<to>active</to>
+			</steps>
 		</steps>
 		<steps xsi:type="be.nabu.libs.services.vm.step.Link"
 				disabled="false"
@@ -102,7 +111,7 @@
 								mask="false"
 								optional="false"
 								fixedValue="true">
-							<from>CRITICAL</from>
+							<from>ERROR</from>
 							<to>event/severity</to>
 						</steps>
 						<steps xsi:type="be.nabu.libs.services.vm.step.Link"
